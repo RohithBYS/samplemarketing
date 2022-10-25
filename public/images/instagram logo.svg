@@ -1,0 +1,27 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#g3hjsgm47a)">
+        <rect width="32" height="32" rx="16" fill="#fff"/>
+        <path d="m24.897 31.995-17.775.017C3.21 32.016.009 28.82.004 24.909L-.013 7.133C-.016 3.223 3.18.02 7.09.016l17.776-.017c3.91-.004 7.113 3.193 7.117 7.103L32 24.878c.005 3.911-3.192 7.114-7.103 7.117z" fill="url(#t3x1dcig4b)"/>
+        <path d="m24.897 31.995-17.775.017C3.21 32.016.009 28.82.004 24.909L-.013 7.133C-.016 3.223 3.18.02 7.09.016l17.776-.017c3.91-.004 7.113 3.193 7.117 7.103L32 24.878c.005 3.911-3.192 7.114-7.103 7.117z" fill="url(#54lnr93otc)"/>
+        <path d="M15.995 20.316a4.316 4.316 0 0 1-4.31-4.31 4.316 4.316 0 0 1 4.31-4.312 4.316 4.316 0 0 1 4.311 4.311 4.316 4.316 0 0 1-4.31 4.31zm0-7.39a3.083 3.083 0 0 0-3.079 3.08 3.083 3.083 0 0 0 3.08 3.078 3.083 3.083 0 0 0 3.079-3.079 3.083 3.083 0 0 0-3.08-3.079zM20.613 12.31a.924.924 0 1 0 0-1.847.924.924 0 0 0 0 1.847z" fill="#fff"/>
+        <path d="M19.69 24.01H12.3a4.316 4.316 0 0 1-4.31-4.31v-7.39a4.316 4.316 0 0 1 4.31-4.311h7.39a4.316 4.316 0 0 1 4.31 4.31v7.39a4.316 4.316 0 0 1-4.31 4.311zM12.3 9.23a3.083 3.083 0 0 0-3.08 3.08v7.39a3.083 3.083 0 0 0 3.08 3.079h7.39a3.083 3.083 0 0 0 3.08-3.08v-7.39a3.083 3.083 0 0 0-3.08-3.078H12.3z" fill="#fff"/>
+    </g>
+    <defs>
+        <radialGradient id="t3x1dcig4b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11.888 32.035) scale(39.9054)">
+            <stop stop-color="#FD5"/>
+            <stop offset=".328" stop-color="#FF543F"/>
+            <stop offset=".348" stop-color="#FC5245"/>
+            <stop offset=".504" stop-color="#E64771"/>
+            <stop offset=".643" stop-color="#D53E91"/>
+            <stop offset=".761" stop-color="#CC39A4"/>
+            <stop offset=".841" stop-color="#C837AB"/>
+        </radialGradient>
+        <radialGradient id="54lnr93otc" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(26.4972 0 0 17.6551 5.139 -.4)">
+            <stop stop-color="#4168C9"/>
+            <stop offset=".999" stop-color="#4168C9" stop-opacity="0"/>
+        </radialGradient>
+        <clipPath id="g3hjsgm47a">
+            <rect width="32" height="32" rx="16" fill="#fff"/>
+        </clipPath>
+    </defs>
+</svg>

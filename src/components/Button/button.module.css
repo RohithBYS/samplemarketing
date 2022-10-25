@@ -1,0 +1,9 @@
+.primaryButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #3fc;
+  font-weight: 600;
+  box-sizing: border-box;
+}

@@ -1,0 +1,139 @@
+.mainCont{
+  position: relative;
+  /* margin: 720px 0 0; */
+  padding: 56px 0px 64px 0px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../../../public/images/TopCarousel.svg), url(../../../../public/images/BottomCarousel.svg);
+  background-position: left top, right bottom;
+  background-size: auto;
+  background-repeat: no-repeat;
+
+}
+
+.mainText{
+  font-size: 40px;
+  font-weight: 600;
+  color: #25282b;
+  /* line-height: 1.75; */
+}
+
+.leftDecoration{
+
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.rightDecoration{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+.carouselBox{
+  margin-top: 40px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 760px; */
+  padding: 40px 138px 40px 138px;
+  /* height: 432px; */
+  border-radius: 8px;
+  background-image: linear-gradient(118deg, #ff5c85 2%, #ff9c5c 100%);
+}
+
+.userRoundBox{
+  width: 64px;
+  height: 64px;
+  border-radius: 64px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userNameText{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "San Francisco";
+}
+
+.studentText{
+  margin-top: 15px;
+  font-size: 16px;
+  color: #fff;
+  font-family: "San Francisco";
+}
+
+.carouselCommentText{
+  
+  margin-top: 25px;
+  text-align: center;
+  max-width: 484px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  font-family: "San Francisco";
+}
+
+.carouselMainCont{
+  position: relative;
+  /* width: 100%; */
+}
+
+.openingQuote{
+  position: absolute;
+  left: -70px;
+  top: 10px;
+}
+
+.closingQuote{
+  position: absolute;
+ right: -70px;
+ bottom: 10px;
+}
+
+/* mobile media queries */
+@media (min-width: 320px) and (max-width: 576px){
+ 
+  .mainCont{
+    padding: 24px 16px;
+    background-image: url(../../../../public/images/TopCarousel.svg), url(../../../../public/images/BottomCarousel.svg);
+  background-position: left top, right bottom;
+  background-size: auto;
+  background-repeat: no-repeat;
+  }
+
+  .mainText{
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .carouselBox{
+    padding: 40px 24px 40px 24px;
+  }
+
+  .openingQuote{
+    left: 0px;
+    top: -20px;
+    width: 32px;
+    height: 24px;
+  }
+
+  .closingQuote{
+   right: 0px;
+   bottom: -20px;
+   width: 32px;
+   height: 24px;
+  }
+  
+  
+}

@@ -1,0 +1,620 @@
+.mainCont{
+  position: relative;
+  max-width: 1700px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.openBannerCont{
+  /* padding: 20%; */
+  padding-top: 84px;
+  /* position: relative;
+  max-width: 1700px;
+  box-sizing: border-box;
+  margin: auto; */
+  /* background-color: red; */
+}
+
+.dataCont{
+  position: relative;
+  max-width: 1700px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.WebImage{
+  position: absolute;
+  width: 445px;
+  height: 504px;
+  bottom: 0;
+  right: 79px;
+}
+
+.MainTextWidth{
+  width: 542px;
+}
+
+.subTextWidth{
+  width: 687px;
+}
+
+
+.UnderlineStyle{
+  position: absolute ;
+  width: 228px;
+  height: 8px;
+ top: 280px;
+ left: 358px;
+}
+
+.imageCont{
+  width: fit-content;
+  /* border: solid 2px blue; */
+}
+
+.dataMainCont{
+  box-sizing: border-box;
+  padding: 184px 64px;
+  background-color: #f7f7f7;
+}
+
+.dataMainCont:nth-child(odd){
+  background-color: #fff;
+}
+
+.mainTextBox{
+  width: 100%;
+min-width: 290px;
+max-width: 540px;
+}
+
+.textboxRow{
+  width: 100%;
+min-width: 290px;
+max-width: 540px;
+/* background-color: aqua; */
+}
+
+.textboxReverse{
+  display: flex;
+flex-direction: row;
+/* width: 60%; */
+justify-content: flex-end;
+/* background-color: palevioletred; */
+}
+
+.imageDataArrange{
+  /* border: solid 1px red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  /* gap: 84px; */
+  align-items: center;
+}
+
+.reverseArrange{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+ background-color: #cfc;
+}
+
+.imageDataArrange2{
+  /* border: solid 1px blue; */
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  /* margin: auto; */
+  justify-content: space-between;
+  /* gap: 20%; */
+  align-items: center;
+}
+
+
+.liveClassMainCont{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f7f7f7;
+  /* border: solid 1px black; */
+  box-sizing: border-box;
+  position: relative;
+  max-width: 1700px;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 184px 64px 184px 64px;
+}
+
+.liveMainText{
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+  color: #25282b;
+}
+
+.liveSubText{
+  font-size: 20px;
+  line-height: 1.75;
+  text-align: left;
+  color: #25282b;
+}
+
+.liveSubText2{
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 2;
+  text-align: left;
+  color: #25282b;
+}
+
+.plus{
+  font-size: 20px;
+  font-weight: 600;
+  color: #25282b;
+}
+
+.getRanksZoomArrange{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 8px;
+}
+
+.integrationArrange{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.TextBox{
+  padding-left: 96px;
+  width: 60%;
+
+  /* border: solid 1px red; */
+}
+
+.contentBox{
+  /* border: solid 1px blue; */
+}
+.dataSectionLive{
+  /* border: solid 1px red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:24px;
+  width: fit-content;
+  /* border: solid 1px pink; */
+}
+
+
+.moduleIcon{
+  width: fit-content;
+  height: fit-content;
+  /* border: solid 1px black; */
+}
+
+.topballonAdjust{
+  top: -20px;
+  right: 70px;
+  z-index: 0;
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  opacity: 0.3;
+  border-radius: 88px;
+}
+
+
+.bottomballonAdjust{
+  bottom: -20px;
+  left: 60px;
+  z-index: 0;
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  opacity: 0.3;
+  border-radius: 88px;
+}
+
+/* comparision */
+.comparisionMainCont{
+  background-color: #f7f7f7;
+  position: relative;
+  max-width: 1700px;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 56px 162px 56px 162px;
+}
+
+.comparisionMainText{
+  text-align: center;
+  width: 637px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.3;
+  color: #25282b;
+  margin-bottom: 24px;
+}
+
+
+.webComparision{
+  width: 100%;
+  height: fit-content;
+}
+
+.negativePointsCont{
+  flex: 1;
+  /* height: 20px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  padding-left: 54px;
+  /* border: solid 1px red; */
+  /* background-color: red; */
+}
+
+.positivePointsCont{
+  flex: 1;
+  /* height: 20px; */
+  /* border: solid 1px green; */
+  padding-left: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  /* background-color: green; */
+}
+
+.negativepostiveArrange{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 28px;
+}
+
+.negativeSquareBox{
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #ffd6d6;
+}
+
+.positiveSquareBox{
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #cfc;
+}
+
+.npText{
+  font-size: 20px;
+  color: #25282b;
+  line-height: 1.6
+}
+
+.flexSideArrange{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.zoomHeading{
+  flex: 1;
+  background-color: #E1E1E2;
+  height: 50px;
+  border-top-left-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  padding-left: 54px;
+}
+
+.getranksheading{
+  flex: 1;
+  height: 50px;
+  background-color: #E1E1E2;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  padding-left: 54px;
+}
+
+.dataCont{
+  width: 100%;
+  box-sizing: border-box;
+  height: max-content;
+  /* border: solid 1px black; */
+  display: flex;
+  flex-direction: column;
+}
+
+.compDataCont{
+  width: 100%;
+  box-sizing: border-box;
+  height: max-content;
+  border-bottom: solid 1px #E1E1E2;
+  display: flex;
+  flex-direction: row;
+}
+
+.zoomDataCont{
+  box-sizing: border-box;
+  flex: 50%;
+  background-color: #ffebeb;
+  padding: 24px;
+}
+
+.getranksDataCont{
+  width: 50%;
+  background-color: #ebffeb;
+  box-sizing: border-box;
+  padding: 24px;
+}
+
+
+
+.divTextSpace{
+  line-height: 1.75;
+  margin-top: 10px;
+  margin-top: 20px;
+}
+
+.mobileComp{
+  display: none;
+  /* background-color: red; */
+  /* border: solid 1px black; */
+  width: 100%;
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.dummyDataCont{
+  background-color: red;
+}
+
+.mobileComparision{
+  display: none;
+}
+
+.dataContainer{
+  width: 60%;
+  margin:  0 !important;
+}
+
+.dataContainer2{
+  width: 60%;
+  margin:  0 !important;
+}
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 576px){
+
+  .openBannerCont{
+    padding: 0px 0px 0px 0px;
+  }
+  .WebImage{
+    display: none;
+  }
+
+  .MainTextWidth{
+    width: 100%;
+  }
+
+  .subTextWidth{
+    width: 100%;
+  }
+
+  .UnderlineStyle{
+    width: 145px;
+    height: 6px;
+    top: 135px;
+    left: 223px;
+  }
+
+  .dataMainCont{
+    padding: 40px 20px 56px 20px;
+  }
+
+  .imageDataArrange{
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .imageDataArrange2{
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .liveClassMainCont{
+    padding: 82px 20px 40px 20px;
+    display: flex;
+    gap: 36px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .liveMainText{
+    font-size: 24px;
+  }
+
+  .liveSubText{
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .TextBox{
+    width: 100%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dataSectionLive{
+    display: flex;
+    flex-direction: column;
+  
+    gap:16px;
+  }
+
+  .liveSubText2{
+    line-height: 1.5;
+    margin-top: 12px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .topballonAdjust{
+    width: 48px;
+    height: 48px;
+    top: -7px;
+    right: 30px;
+  }
+
+  .bottomballonAdjust{
+    left: 30px;
+    bottom: -7px;
+    width: 48px;
+    height: 48px;
+  }
+
+  /* comparision */
+
+  .webComparision{
+    display: none;
+  }
+
+  .mobileComp{
+    display: block;
+  }
+
+  .contentBox{
+    border: solid 1px pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+  }
+
+  .comparisionMainCont{
+    padding: 40px 16px 24px 16px;
+    display: flex;
+    align-items: center;
+  }
+
+  .comparisionMainText{
+    font-size: 24px;
+    width: 242px;
+  }
+
+  .positivePointsCont{
+    /* border: solid 1px green; */
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    /* background-color: green; */
+  }
+
+  .npText{
+    /* border: solid 1px red; */
+    font-size: 14px;
+  }
+
+  .positiveSquareBox{
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+  }
+
+  .getranksheading{
+
+   margin-bottom: 0 !important;
+
+    margin-top: 24px;
+    flex: 1;
+    height: 40px;
+    border-top-right-radius: 0px;
+    font-size: 16px;
+    padding-left: 12px;
+  }
+
+  .zoomHeading{
+    flex: 1;
+    height: 40px;
+    border-top-left-radius: 0;
+    font-size: 16px;
+    color: #000;
+    padding-left: 12px;
+  }
+
+  .getranksDataCont{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    /* padding: 0 !important; */
+    border-bottom: solid 1px #E1E1E2;
+  }
+  .zoomDataCont{
+    width: 100%;
+    padding: 0px;
+    
+  }
+
+  .getranksMobileDataCont{
+    background-color: #ebffeb;
+  }
+
+  .zoomMobileDataCont{
+    background-color: #ffebeb;
+  }
+
+
+
+ .getRannksDataCont{
+  background-color: #ebffeb;
+ }
+
+  .divTextSpace{
+    line-height: 1.5;
+  }
+
+
+  .mobileComparision{
+    display: block;
+  }
+
+  .negativeSquareBox{
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+  }
+
+  .marginT24{
+    margin-top: 24px;
+  }
+
+
+}

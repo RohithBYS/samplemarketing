@@ -1,0 +1,116 @@
+.mainCont{
+  /* height: fit-content; */
+  background-color: #fff;
+  border: solid 1px red;
+  padding: 64px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headingCont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headingText{
+  width: 45%;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "San Francisco";
+  color: #25282b;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+
+.circleImg{
+  opacity: 0.8;
+
+}
+
+.rectangleImg{
+  transform: rotate(-339.27deg);
+  opacity: 0.8;
+}
+
+.pricingSubText{
+  margin-top: 12px;
+  font-size: 16px;
+  font-family: "San Francisco";
+  text-align: center;
+  color: #25282b;
+}
+
+.subText{
+  margin-top: 64px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+}
+
+.roundBoxCont{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  gap: 43px;
+}
+
+.roundBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 52px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+}
+
+.roundBoxTest{
+  font-size: 14px;
+  letter-spacing: -0.28px;
+  color: #25282b;
+  font-family: "San Francisco";
+}
+
+.iconsArrange{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linePausePlayArrange{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+
+}
+
+.lineAlign{
+  opacity: 0.3;
+  position: absolute;
+  left: -200px;
+  bottom: 0;
+}
+
+.RectangleAlign{
+  position: absolute;
+  right: -230px;
+  transform: rotate(-23.65deg);
+  opacity: 0.8;
+}
+
+.planDetailsText{
+  margin-top: 64px;
+  font-size: 24px;
+  color: #f36;
+  font-family: "San Francisco";
+}

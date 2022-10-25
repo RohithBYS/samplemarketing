@@ -1,38 +1,170 @@
-.App {
+.mainText{
+  font-size: 40px;
+  font-weight: 600;
+  /* font-family: "San Francisco"; */
+  color: #25282b;
+  line-height: 1.75;
+}
+
+/* .app{
+  width: 100%;
+} */
+
+.subText{
+  font-size: 32px;
+  font-weight: 600;
+  /* font-family: "San Francisco"; */
+  color: #25282b;
+}
+
+.subsubText{
+  font-size: 16px;
+  /* font-family: "San Francisco"; */
+  color: #25282b;
+}
+
+.flexSideArrange{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mt-28{
+  margin-top: 28px;
+}
+
+.g{
+  gap: 2px;
+}
+
+.g-2{
+  gap: 4px;
+}
+
+.g-3{
+  gap: 8px;
+}
+
+.g-4{
+  gap: 16px;
+}
+
+.g-5{
+  gap: 24px;
+}
+
+.g-6{
+  gap: 32px;
+}
+
+.g-7{
+  gap: 64px;
+}
+
+.g-107{
+  gap: 107px;
+}
+
+.mt{
+  margin-top: 2px;
+}
+
+.mt-2{
+  margin-top: 4px;
+}
+
+.mt-3{
+  margin-top: 8px;
+}
+
+.mt-4{
+  margin-top: 16px;
+}
+
+.mt-5{
+  margin-top: 32px;
+}
+
+.mt-6{
+margin-top: 64px;
+}
+
+.mt-7{
+  margin-top: 128px;
+}
+
+.mb-52{
+  margin-bottom: 52px;
+}
+
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.ballonMainCont{
+  position: relative;
+}
+
+.ballonTop{
+  position: absolute;
+  top: -8px;
+  left: 120px;
+  width: 96px;
+  height: 96px;
+  border-radius: 96px;
+  opacity: 0.2;
+  
+}
+
+.insideImage{
+  position: relative;
+  z-index: 1;
+}
+
+.ballonBottom{
+  position: absolute;
+  bottom: -8px;
+  right: 120px;
+  width: 96px;
+  height: 96px;
+  border-radius: 96px;
+  opacity: 0.2;
+
+}
+
+.lineHeight{
+  line-height: 2;
+}
+
+.lineHeight2{
+  line-height: 1.5;
+}
+
+
+.flex{
+  display: flex;
+}
+
+.flexRow{
+  flex-direction: row;
+}
+
+.flexCol{
+  flex-direction: column;
+}
+
+.alignCenter{
+  align-items: center;
+}
+
+.textCenter{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flexDownArrange{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
