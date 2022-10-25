@@ -1,0 +1,100 @@
+.mainCont{
+  /* background-color: red; */
+}
+
+.imageCont{
+ /* border: solid 1px red; */
+  background-color: #fff;
+  width: 40%;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.08);
+  /* position: relative; */
+}
+
+.imageStyling{
+ 
+  /* z-index: 20; */
+  /* width: 606px; */
+  /* height: 341px; */
+  width: 100%;
+  height: 100%;
+}
+
+.topBaloon{
+  /* top: -45px; */
+  top: -35px;
+  left: 28px;
+  /* right: 30px; */
+  /* z-index: -1; */
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  opacity: 1;
+  border-radius: 36px;
+  /* background-color: #3fc; */
+}
+
+.bottomBaloon{
+  bottom:  -36px;
+  left: 348px;
+  /* z-index: -1; */
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  opacity: 1;
+  border-radius: 36px;
+  /* background-color: red; */
+}
+
+.mainImage{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.innerCont{
+  position: relative;
+  width: 480px;
+  height: 270px;
+  background-color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 576px){
+
+  .imageStyling{
+    width: 320px;
+    height: 180px;
+  }
+
+  .imageCont{
+    /* border: solid 1px red; */
+     
+     width: 100%;
+     position: relative;
+   }
+
+  .topBaloon{
+    top: -25px;
+    width: 48px;
+    height: 48px;
+  }
+
+  .bottomBaloon{
+    left: 248px;
+    bottom: -24px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+  
+  .innerCont{
+    width: 320px;
+    height: 180px;
+  }
+
+ 
+
+}

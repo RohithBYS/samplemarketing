@@ -1,0 +1,277 @@
+.mainCont{
+  /* padding: 20%; */
+  padding-top: 84px;
+
+  position: relative;
+  max-width: 1700px;
+  box-sizing: border-box;
+  margin: auto;
+  /* background-color: red; */
+}
+
+.WebImage{
+  position: absolute;
+  width: 357px;
+  height: 504px;
+  bottom: 0;
+  right: 79px;
+}
+
+.MainTextWidth{
+  width: 70%;
+}
+
+.subTextWidth{
+  width: 600px;
+  box-sizing: border-box;
+}
+
+
+.UnderlineStyle{
+  position: absolute ;
+  width: 385px;
+  height: 8px;
+ top: 280px;
+ left: 230px;
+}
+
+
+
+.liveClassMainCont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  /* border: solid 1px black; */
+  box-sizing: border-box;
+  position: relative;
+  max-width: 1700px;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 184px 64px 184px 64px;
+}
+
+.liveClassMainCont:nth-child(odd){
+  background-color: #f7f7f7;
+}
+
+.liveClassMainCont2{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+ /* gap: 146px; */
+  align-items: center;
+  background-color: #fff;
+  /* border: solid 1px black; */
+  box-sizing: border-box;
+  position: relative;
+  max-width: 1700px;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 184px 64px 184px 64px;
+}
+
+
+
+.dataSectionLive{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:24px;
+  width: fit-content;
+  /* border: solid 1px pink; */
+}
+
+.moduleIcon{
+  width: fit-content;
+  height: fit-content;
+  /* border: solid 1px black; */
+}
+.TextBox{
+  padding-left: 96px;
+  /* width: 60%; */
+  /* border: solid 1px red; */
+}
+
+.integrationArrange{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.liveSubText{
+  font-size: 20px;
+  line-height: 1.75;
+  text-align: left;
+  color: #25282b;
+}
+
+.liveSubText2{
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 2;
+  text-align: left;
+  color: #25282b;
+}
+
+
+.imageCont{
+  width: fit-content;
+  /* border: solid 2px blue; */
+}
+
+.liveMainText{
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+  color: #25282b;
+}
+
+
+.mainTextBox{
+  width: 100%;
+min-width: 290px;
+max-width: 540px;
+}
+
+.textboxRow{
+  width: 100%;
+min-width: 290px;
+max-width: 540px;
+/* background-color: aqua; */
+}
+
+.textboxReverse{
+  display: flex;
+flex-direction: row;
+/* width: 60%; */
+justify-content: flex-end;
+/* background-color: palevioletred; */
+}
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 576px){
+
+  .mainCont{
+    padding: 0px 0px 0px 0px;
+  }
+
+  .WebImage{
+    display: none;
+  }
+
+  .MainTextWidth{
+    width: 100%;
+  }
+
+  .subTextWidth{
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+
+  .UnderlineStyle{
+    width: 251px;
+    height: 6px;
+    top: 135px;
+    left: 140px;
+  }
+
+  .MobileImageWidth{
+    width: 226px;
+    height: 339px;
+  }
+
+  .liveClassMainCont{
+    padding: 32px 20px 40px 20px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .liveClassMainCont2{
+    padding: 32px 20px 40px 20px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .liveMainText{
+    font-size: 24px;
+  }
+
+  .liveSubText{
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+
+  .TextBox{
+    width: 100%;
+    padding-left: 0;
+  }
+  .liveSubText2{
+    line-height: 1.5;
+    margin-top: 12px;
+    font-size: 14px;
+  }
+
+  .contentBox{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+
+
+  .dataSectionLive{
+    gap:10px;
+
+    /* border: solid 1px pink; */
+  }
+
+  /* .topballonAdjust{
+    width: 48px;
+    height: 48px;
+    top: -7px;
+    right: 30px;
+  }
+  .bottomballonAdjust{
+    left: 30px;
+    bottom: -7px;
+    width: 48px;
+    height: 48px;
+  } */
+
+  .textboxRow{
+    width: 100%;
+  min-width: 290px;
+  max-width: 540px;
+  /* background-color: aqua; */
+  }
+  
+  .textboxReverse{
+    display: flex;
+  flex-direction: row;
+  /* width: 60%; */
+  justify-content: flex-end;
+  /* background-color: palevioletred; */
+  }
+
+
+  
+  
+
+
+}

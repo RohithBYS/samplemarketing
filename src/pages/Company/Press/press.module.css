@@ -1,0 +1,312 @@
+.mainCont{
+  padding: 84px 0px 64px 0px;
+  /* border: solid 1px red; */
+}
+
+.bannerCont{
+  width: 100%;
+  height: 240px;
+  background-image: linear-gradient(to right, #ea4c70 0%, #b2457c 100%);
+  font-size: 48px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bodyCont{
+  width: 100%;
+  max-width: 1700px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 56px 64px 54px 64px;
+  /* border: solid 1px red; */
+
+}
+
+.tabNavCont{
+  /* border: solid 1px aqua; */
+  width: max-content;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.tabButtonSelected{
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  background-color: #f36;
+  border: solid 1px #f36;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+ 
+}
+
+.tabButtonDeSelected{
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  background-color: transparent;
+  border: solid 1px #f36;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  color: #f36;
+  cursor: pointer;
+}
+
+.tabButtonSelected:first-child{
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.tabButtonSelected:last-child{
+  border-top-right-radius: 4px ;
+  border-bottom-right-radius: 4px;
+}
+
+.tabButtonDeSelected:first-child{
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.tabButtonDeSelected:last-child{
+  border-top-right-radius: 4px ;
+  border-bottom-right-radius: 4px;
+}
+
+
+.innerBodyCont{
+  /* border: solid 1px yellowgreen; */
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 79px;
+}
+
+.horizontalLine{
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  opacity: 0.2;
+  margin: 24px 0
+}
+
+.horizontalLine2{
+  width: 100%;
+  height: 2px;
+  opacity: 0.1;
+  background-color: #25282b;
+  margin: 16px 0;
+}
+.horizontalLine3{
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  opacity: 0.2;
+  margin: 32px 0
+}
+
+.mediaDataCont{
+  /* border: solid 1px black; */
+  width: 70%;
+}
+
+.mediaQueryCont{
+  /* width: 215px; */
+  width: max-content;
+  padding: 16px;
+  /* height: 126px; */
+  height: max-content;
+  border-radius: 4px;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  /* border: solid 1px royalblue */
+}
+
+.mediaQueryText{
+  width: 90%;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: left;
+  color: #000;
+}
+
+.mailIconArrange{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.emailText{
+  font-size: 14px;
+  color: #0076ff;
+}
+
+.mediaCoverageNewsMainCont{
+  /* border: solid 1px rebeccapurple; */
+}
+
+.NewsBox{
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  /* padding: 24px 0px 24px 0px; */
+  /* border-bottom: solid 1px #C7C7C7; */
+  /* height: 30%; */
+}
+
+.mediaImage{
+  width: 200px;
+  height: 96px;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.16);
+}
+
+
+.mediaHeadText{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #000;
+}
+
+.publishedByText{
+  opacity: 0.6;
+  font-size: 14px;
+  color: #000;
+}
+
+.dataBox{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.subText{
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000;
+  text-align: left;
+}
+
+.readMoreTex{
+  font-size: 14px;
+  color: #3676fb;
+  text-decoration: underline;
+}
+
+.mediaVideo{
+cursor: pointer;
+  
+}
+
+.mediaVideosCont{
+  /* background-color: red; */
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 576px){
+
+  .mainCont{
+    padding: 0px;
+  }
+  
+  .bannerCont{
+    height: 112px;
+    font-size: 24px;
+  }
+
+  .bodyCont{
+    padding: 16px 16px 24px 16px;
+  }
+
+  .tabButtonDeSelected{
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+
+  .tabButtonSelected{
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+
+  .innerBodyCont{
+    margin-top: 24px;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .mediaDataCont{
+    width: 100%;
+  }
+
+  .NewsBox{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .mediaHeadText{
+    font-size: 16px;
+  }
+
+  .publishedByText{
+    font-size: 12px;
+  }
+
+  .subText{
+    font-size: 12px;
+    line-height: 1.67;
+  }
+
+  .readMoreTex{
+    font-size: 12px;
+  }
+  .horizontalLine{
+    margin: 16px 0;
+  }
+
+  .mediaQueryCont{
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+  }
+
+  .mediaQueryText{
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .horizontalLine2{
+    margin: 8px 0;
+  }
+
+  .horizontalLine3{
+    margin: 16px 0
+  }
+
+  .emailText{
+    font-size: 14px;
+  }
+
+  .mediaVideo{
+    width: 172px;
+    height: 126px;
+
+  }
+}

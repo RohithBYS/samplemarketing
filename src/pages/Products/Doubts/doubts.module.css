@@ -1,0 +1,148 @@
+.mainCont{
+  /* padding: 20%; */
+  padding-top: 84px;
+  position: relative;
+  max-width: 1700px;
+  box-sizing: border-box;
+  margin: auto;
+  /* background-color: red; */
+}
+
+
+.dataCont{
+  position: relative;
+  max-width: 1700px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.WebImage{
+  position: absolute;
+  width: 583.4px;
+  height: 507.7px;
+  bottom: 0;
+  right: 79px;
+}
+
+.MainTextWidth{
+  width: 570px;
+}
+
+.subTextWidth{
+  width: 600px;
+}
+
+
+.UnderlineStyle{
+  position: absolute ;
+  width: 228px;
+  height: 8px;
+ top: 280px;
+ left: 358px;
+}
+
+.dataMainCont{
+  box-sizing: border-box;
+  padding: 184px 64px;
+  background-color: #fff;
+}
+
+.dataMainCont:nth-child(odd){
+  background-color: #f7f7f7;
+}
+
+.imageDataArrange{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* gap: 84px; */
+  align-items: center;
+}
+
+.imageDataArrange2{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  /* gap: 84px; */
+  align-items: center;
+}
+
+.mainTextBox{
+  width: 100%;
+min-width: 290px;
+max-width: 540px;
+}
+
+.textboxRow{
+  width: 100%;
+min-width: 290px;
+max-width: 540px;
+/* background-color: aqua; */
+}
+
+.textboxReverse{
+  display: flex;
+flex-direction: row;
+/* width: 60%; */
+justify-content: flex-end;
+/* background-color: palevioletred; */
+}
+
+
+
+@media (min-width: 320px) and (max-width: 576px){
+
+  .mainCont{
+    padding: 0px 0px 0px 0px;
+  }
+
+  .WebImage{
+    display: none;
+  }
+
+  .MainTextWidth{
+    width: 100%;
+  }
+
+  .subTextWidth{
+    width: 100%;
+  }
+
+  .UnderlineStyle{
+    width: 145px;
+    height: 6px;
+    top: 135px;
+    left: 223px;
+  }
+
+  .dataMainCont{
+    padding: 40px 20px 56px 20px;
+  }
+
+  .imageDataArrange{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .imageDataArrange2{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .textboxRow{
+    width: 100%;
+  min-width: 290px;
+  max-width: 540px;
+  /* background-color: aqua; */
+  }
+  
+  .textboxReverse{
+    display: flex;
+  flex-direction: row;
+  /* width: 60%; */
+  justify-content: flex-end;
+  /* background-color: palevioletred; */
+  }
+  
+
+}

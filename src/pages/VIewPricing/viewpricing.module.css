@@ -1,0 +1,572 @@
+/* common stylings */
+.topCont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 9.25em;
+  padding-bottom: 72px;
+}
+
+.mainHeadText{
+  width: 10em;
+  font-size: 3.5em;
+  font-weight: 600;
+  /* line-height: 1.5; */
+  letter-spacing: 0.56px;
+  text-align: center;
+  color: #25282b;
+}
+
+.smallText{
+  opacity: 0.7;
+  width: 27.8em;
+  font-size: 1em;
+  line-height: 2;
+  text-align: center;
+  color: #25282b;
+  margin-top: 0.85em;
+  margin-bottom: 4.5em;
+}
+
+.backToPriceText{
+  display: none;
+  cursor: pointer;
+}
+
+.whoRUText{
+  font-size: 1.75em;
+  font-weight: 600;
+  text-align: center;
+  color: #25282b;
+}
+
+.flexSideArrange{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+
+
+/* ---------------------------- */
+
+
+
+/* web Stylings */
+
+.webContArrange{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.webMainCont{
+  /* padding: 0em 0em 0em 12.81em ; */
+}
+
+.webInsideCont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teacherStudentbtnCont{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.5em;
+  margin-top: 1.5em;
+}
+
+.studentTeacherCont{
+  position: relative;
+  width: 14em;
+  height:  5em;
+  border-radius: 4px;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 0.5em;
+  padding-left: 1.25em;
+}
+
+.rightTick{
+  position: absolute;
+  top: 0.625em;;
+  right: 0.625em;
+}
+
+.roundBox{
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 2.5em;
+  /* opacity: 0.3; */
+  background-color: #EDEDED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roundBoxImg{
+
+}
+
+.adminTeacherStudentText{
+  font-size: 1em;
+  font-weight: normal;
+  color: #25282b;
+}
+
+.adminTeacherStudentTextSelected{
+  font-weight: 600;
+}
+
+
+.adminTeacherStudentBoxSelected{
+  box-shadow: 0 0 16px 0 rgba(255, 51, 102, 0.16);
+  border: solid 1px #ff99b3;
+}
+
+.everyPlanText{
+  font-size: 1.75em;
+  font-weight: 600;
+  text-align: center;
+  color: #25282b;
+  margin-top: 2.57em;
+  margin-bottom: 0.85em;
+}
+
+.navigationBoxMainCont{
+  /* padding: 0em 9em 0em 12.81em ; */
+  /* border: solid 1px red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 0;
+  
+}
+
+.navigationRectangle{
+  /* width: 100%; */
+  width: 13em;
+  /* padding: 0px 30px 0px 30px; */
+  height: 3em;
+  border-top: solid 1px rgba(0, 0, 0, 0.2);
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2); 
+  border-right: solid 1px rgba(0, 0, 0, 0.2); 
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625em;
+  cursor: pointer;
+}
+
+.dummy{
+  /* border: solid 3px aqua; */
+  
+}
+
+.navigationRectangle:first-child{
+ border-left: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.navigationRectangleSelected{
+  background-color: #f36;
+}
+
+.navigationItemText{
+  font-size: 0.875em;
+  color: #25282b;
+}
+
+.navigationItemTextSelected{
+  font-weight: 600;
+  color: #fff;
+}
+
+.subListMainCont{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* height: 50vh; */
+  /* background-color: red; */
+  margin-top: 1.6em;
+}
+
+.leftNavArrange{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 1.5em;
+  width: 33%;
+  /* background-color: red; */
+}
+
+
+
+.leftNavIconNText{
+  display: flex;
+}
+
+.leftNavIconVisible{
+  visibility: visible;
+}
+
+.leftNavIconHidden{
+  visibility: hidden;
+}
+
+.selectedLeftNavText{
+  font-size: 1em;
+  font-weight: 600;
+  color: #f36;
+  padding-left: 0.75em;
+  cursor: pointer;
+}
+
+.deSelectedLeftNavText{
+  font-size: 1em;
+  font-weight: normal;
+  color: #25282b;
+  padding-left: 0.75em;
+  cursor: pointer;
+}
+
+.rightContentCont{
+  padding-left: 0.5em;
+  /* border:solid 1px #f36; */
+  width: 100%;
+  flex-grow: 0;
+  /* height: 37.25em; */
+  /* overflow: scroll; */
+}
+
+.rightBodyHeading{
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #25282b;
+  margin-bottom: 1.5em;
+}
+
+
+.rightbodyContentCont{
+ 
+  /* background-color: aqua; */
+  /* width: 5%; */
+  /* height: fit-content; */
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  gap: 0.75em;
+  /* height: 10vh; */
+}
+
+.sectionCont{
+  display: flex;
+  flex-direction: row;
+}
+
+.rightbodyDiv1{
+  /* border: solid 1px rebeccapurple; */
+ flex: 1;
+
+}
+
+.rightbodyDiv2{
+  /* border: solid 1px pink; */
+  /* max-width: 47%; */
+  flex: 1;
+}
+
+.rightbodyContArrange{
+  
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  margin-bottom: 0.75em;
+ 
+}
+
+
+
+.rightcontText{
+  font-size:  0.875em;
+  /* width: 40%; */
+  line-height: 1.5;
+  color: #25282b;
+}
+
+
+
+/* ---------------------------- */
+
+
+/* mobile */
+
+.mobileCont{
+  display: none;
+  background-color: #f7f7f7;
+  margin-top: 24px;
+  /* height: 1041px; */
+}
+
+.buttonMainCont{
+  display: flex;
+  flex-direction: row;
+}
+
+.teacherBox{
+  border-bottom-right-radius: 10px;
+}
+
+.studentBox{
+  border-bottom-left-radius: 10px;
+}
+
+.buttonCont{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  height: 65px;
+  background-color: #e8e8e8;
+  /* border-bottom-left-radius: 10px; */
+}
+
+.buttonSelected{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  height: 65px;
+  border-top: solid 2px #f36;
+}
+
+
+.insideMobCont{
+  padding: 20px 16px 24px 16px;
+  /* height: 1041px; */
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  
+  /* background-color: red; */
+}
+
+.mobileNavCont{
+  height: 44px;
+  border-radius: 24px;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px 0px 16px;
+}
+
+.mobileNavSelected{
+  height: 44px;
+  border-radius: 24px;
+  border: solid 1px #ff99b3;
+  background-color: #fff5f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px 0px 16px;
+}
+
+.navTextSelected{
+  font-size: 14px;
+  font-weight: 600;
+  color: #f36;
+  letter-spacing: 0.28px;
+}
+
+.navTextDeselected{
+  font-size: 14px;
+  font-weight: 600;
+  color: #25282b;
+  letter-spacing: 0.28px;
+}
+
+.mobNavInside{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  align-items: center;
+  gap: 4px;
+}
+
+.mobNavInsideData{
+  margin-top: 16px;
+  padding-left: 16px;
+  /* background-color: red; */
+}
+
+.mobNavInsideSubHeading{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #25282b;
+}
+
+.navinsideDataCont{
+  display: flex;
+  /* flex-direction: column; */
+  /* gap: 8px; */
+  margin-bottom: 8px;
+}
+
+.subsubData{
+  font-size: 12px;
+  line-height: 1.67;
+  color: #25282b;
+}
+/* --------------------- */
+
+
+
+
+/* Media queries */
+
+
+/* media queries for mobile */
+@media (min-width: 320px) and (max-width: 576px){
+
+  .webMainCont{
+    display: none;
+  }
+
+  .mobileCont{
+    display: block;
+  }
+
+  .topCont{
+    padding-top: 1.5em;
+  }
+
+  .mainHeadText{
+    font-size: 2em;
+    width: 6.4em;
+    text-align:center;
+    /* line-height: 1.4; */
+  }
+
+  .smallText{
+    font-size: 0.875em;
+    width: 15.85em;
+    line-height: 1.71;
+    margin-bottom: 3em;
+  }
+
+  .backToPriceText{
+    display: block;
+    font-size: 0.75em;
+    color: #f36;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom:  3em;
+  }
+
+  .whoRUText{
+    font-size: 1.25;
+    width: 6.65em;
+  }
+
+  .adminTeacherStudentText{
+    font-size: 0.875em;
+  }
+
+  
+}
+/* ---------------------------- */
+
+
+
+/* larger screens */
+@media (min-width: 1367px){
+
+  /* .mainHeadText{
+    font-size: 4em;
+  }
+
+  .smallText{
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+
+  .whoRUText{
+    font-size: 2em;
+  }
+
+  .studentTeacherCont{
+    width: 15em;
+    height: 5.5em;
+    gap: 0.7em;
+    padding-left: 1.5em;
+  }
+
+  .rightTick{
+    top: 0.7em;;
+    right: 0.7em;
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+  .roundBox{
+    width: 2.7em;
+    height: 2.7em;
+  }
+
+  .adminTeacherStudentText{
+    font-size: 1.3em;
+  }
+
+  .everyPlanText{
+    font-size: 2em;
+    margin-top: 2.67em;
+    margin-bottom: 0.95em;
+  }
+  .navigationRectangle{
+    height: 3.1em;
+  }
+  .navigationItemText{
+    font-size: 0.975em;
+    gap: 0.725em;
+  }
+
+  .subListMainCont{
+    margin-top: 1.7em;
+  }
+  .selectedLeftNavText{
+    font-size: 1.2em;
+    padding-left: 0.85em;
+  }
+
+  .navigationRectangle{
+    width: 12em;
+    height: 3em;
+  }
+
+  .navigationItemText{
+    font-size: 1em;
+  }
+   */
+}

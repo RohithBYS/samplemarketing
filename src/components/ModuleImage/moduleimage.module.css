@@ -1,0 +1,26 @@
+.roundBox{
+  width: 72px;
+  height: 72px;
+  border-radius: 72px;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.12);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageSizing{
+
+}
+
+@media (min-width: 320px) and (max-width: 576px){
+  .roundBox{
+    width: 48px;
+    height: 48px;
+  }
+
+  .imageSizing{
+    width: 28px;
+    height: 28px;
+  }
+}

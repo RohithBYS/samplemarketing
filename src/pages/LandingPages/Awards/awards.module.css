@@ -1,0 +1,50 @@
+.mainCont{
+  /* background-color: #f7f7f7; */
+  padding: 48px 0px 56px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.mainText{
+  font-size: 40px;
+  font-weight: 600;
+  /* font-family: "San Francisco"; */
+  color: #25282b;
+  line-height: 1.75;
+}
+
+.webImage{
+  display: block;
+}
+
+.awardCont{
+  display: none;
+}
+
+
+@media (min-width: 320px) and (max-width: 576px){
+ 
+  .mainCont{
+    padding: 24px;
+    gap: 32px;
+  }
+
+  .mainText{
+    font-size: 24px;
+  }
+  
+  .webImage{
+    display: none;
+  }
+
+  .awardCont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+}

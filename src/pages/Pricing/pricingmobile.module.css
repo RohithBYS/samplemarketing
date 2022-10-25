@@ -1,0 +1,579 @@
+.mainCont{
+  /* height: fit-content; */
+  background-color: #fff;
+  /* margin-top: 10px; */
+  /* border: solid 1px red; */
+  padding: 148px 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headingText{
+  width: 206px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: -0.56px;
+  text-align: center;
+  color: #25282b;
+}
+
+.smallText{
+  opacity: 0.7;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: -0.42px;
+  text-align: center;
+  color: #000;
+  margin-top: 12px;
+}
+
+.subText{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #25282b;
+}
+
+.planIncludesText{
+  margin-top: 56px;
+}
+
+.roundBoxArrange{
+  margin-top: 28px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 39px;
+}
+
+.roundBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8.4px;
+}
+
+.roundBoxImage{
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+}
+
+.roundBoxText{
+  font-size: 12px;
+  letter-spacing: -0.28px;
+  color: #25282b;
+}
+
+.planDetailsText{
+  margin-top: 48px;
+  text-decoration: underline;
+  font-size: 14px;
+  text-align: center;
+  color: #f36;
+  cursor: pointer;
+}
+
+
+.priceCardWebCont{
+  display: none;
+}
+
+.priceCardMobCont{
+
+  display: block;
+  padding-bottom: 24px;
+  /* width: 360px; */
+  /* height: 1254px; */
+  flex-grow: 0;
+  background-color: #f7f7f7;
+}
+
+.save15Text{
+  font-size: 14px;
+  color: #f36;
+}
+
+.planTypeText{
+  font-size: 16px;
+  color: #25282b;
+}
+
+.onOffButton{
+  
+  display: flex;
+  align-items: center;
+  padding: 3.1px 3px 3.1px 3px;
+  width: fit-content;
+  height: fit-content;
+  flex-grow: 0;
+  border-radius: 24px;
+  background-color: #f36; 
+}
+
+.onOffButton2{
+  display: flex;
+  align-items: center;
+  padding: 3.1px 3px 3.1px 3px;
+  width: fit-content;
+  height: fit-content;
+  flex-grow: 0;
+  border-radius: 24px;
+  background-color: #25282b;
+}
+
+.onOffCircleAnnual{
+  cursor: pointer;
+ visibility: hidden;
+  border-radius: 24.9px;
+  width: 24.9px;
+  height: 24.9px;
+  background-color: #fff;
+}
+
+
+
+.onOffCircleMonthly{
+  cursor: pointer;
+  visibility: hidden;
+  border-radius: 24.9px;
+  width: 24.9px;
+  height: 24.9px;
+  background-color: #fff;
+}
+
+.displayShow{
+  visibility: visible;
+}
+
+.mt84{
+  margin-top: 84px;
+}
+
+.textUnderline{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+
+/* mobile */
+.leftButton{
+  border-bottom-right-radius: 6px;
+}
+
+.rightButton{
+  border-bottom-left-radius: 6px;
+}
+
+.pricingCardMobileButtonsSelected{
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  /* background-color: #e8e8e8; */
+  font-size: 14px;
+  font-weight: 600;
+  color: #25282b;
+  border-top: solid 2px #f36;
+}
+
+.pricingCardMobileButtonsDeSelected{
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  background-color: #e8e8e8;
+  font-size: 14px;
+  font-weight: 600;
+  color: #25282b;
+  
+  /* border-top: solid 2px #f36; */
+}
+
+.pricingMobileSubText{
+  opacity: 0.6;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+  text-align: center;
+ 
+}
+.enterpriseMobileSubText{
+  width: 221px;
+  opacity: 0.6;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+  text-align: center;
+}
+
+
+
+
+
+.priceCardArrange{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px
+}
+
+.priceCardMobile{
+  /* border: solid 1px red; */
+  width: 328px;
+  height: 221px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.priceCardMobileArrange{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.dataText{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: solid 1px aqua; */
+}
+.priceCardWeb{
+  width: 270px;
+  height: 470px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 2px; */
+}
+
+.priceCardWebArrange{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flexCOL{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+
+.pricingCardImage{
+  width: 64px;
+  height: 64px;
+}
+
+.pricardMainText{
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: #25282b;
+}
+
+.mt24{
+  margin-top: 24px;
+}
+
+.perStudentText{
+
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+  /* opacity: 0.6; */
+}
+
+.rupeeMobText{
+  background-image: linear-gradient(59deg, #f36 29%, #ff601d 70%);
+  font-size: 20px;
+  font-weight: 600;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.rupeeWebText{
+  text-align: center;
+  background-image: linear-gradient(59deg, #f36 29%, #ff601d 70%);
+  font-size: 24px;
+  font-weight: 600;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.priceButtonMob{
+  letter-spacing: 0.48px;
+  width: 174px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 40px;
+  color: #fff;
+  background-color: #f36;
+  border: none;
+  cursor: pointer;
+}
+
+.buyButton{
+  width: 120px;
+  height: 36px;
+  border-radius: 24px;
+  background-color: #f36;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+
+  margin-top: 56px;
+}
+
+
+.pricingMainText{
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #25282b;
+}
+
+.perStudentTextWeb{
+  opacity: 0.6;
+  font-size: 14px;
+  text-align: center;
+  color: #25282b;
+}
+
+.enterpriseWebCard{
+  margin-top: 20px;
+  width: 1116px;
+  /* height: 117px; */
+  padding: 40px 0px 40px 0px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.enterpriseMainText{
+  font-size: 24px;
+  font-weight: 600;
+  color: #25282b;
+}
+
+.enterpriseSubText{
+  font-size: 16px;
+  color: #000;
+  opacity: 0.6;
+}
+
+
+
+
+/* media queries for mobile */
+/* @media (min-width: 320px) and (max-width: 576px){
+  .headingText{
+    width: 206px;
+    font-size: 32px;
+  }
+} */
+
+/* media queries for iPads, Tablets */
+/* @media (min-width: 577px) and (max-width: 768px){
+  .headingText{
+    width: 206px;
+    font-size: 42px;
+  }
+} */
+
+/* media queries for Tablets*/
+@media (min-width: 769px) and (max-width: 1024px){
+  
+  
+
+  
+}
+
+/* media queries for Laptops*/
+@media (min-width: 1025px){
+  .headingText{
+    width: 573px;
+    font-size: 56px;
+  }
+  .smallText{
+    opacity: 0.7;
+    font-size: 16px;
+  }
+  .subText{
+    font-size: 24px;
+  }
+
+  .planIncludesText{
+    margin-top: 64px;
+  }
+
+  .roundBoxArrange{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+  }
+  .roundBoxImage{
+    width: 52px;
+    height: 52px;
+    border-radius: 52px;
+  }
+  .roundBoxText{
+    font-size: 14px;
+  }
+
+  .planDetailsText{
+    margin-top: 64px;
+  }
+
+  .planDetailsText{
+    font-size: 24px;
+  }
+
+  .priceCardWebCont{
+    padding: 0px 82px 80px 82px;
+
+    margin-top: 84px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .priceCardMobCont{
+    display: none;
+  }
+
+  
+
+}
+
+
+/* media queries for High res desktops*/
+/* @media (min-width: 1367px){
+  .headingText{
+    width: 600px;
+    font-size: 60px;
+  }
+
+  .smallText{
+    font-size: 22px;
+  }
+  .subText{
+    font-size: 35px;
+  }
+
+  .planIncludesText{
+    margin-top: 68px;
+  }
+
+  .roundBoxArrange{
+    margin-top: 24px;
+    gap: 44px;
+  }
+
+  .roundBoxImage{
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+  }
+
+  .roundBoxText{
+    font-size: 22px;
+  }
+  .moduleImage{
+    width: 34px;
+    height: 34px;
+  }
+
+  .planDetailsText{
+    letter-spacing: 1px; 
+    font-size: 20px;
+  }
+  .save15Text{
+    font-size: 20px;
+
+  }
+
+  .planTypeText{
+    font-size: 20px;
+  }
+  
+  .priceCardWebCont{
+    padding: 0px 82px 80px 82px;
+
+    margin-top: 84px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .priceCardMobCont{
+    display: none;
+  }
+
+  .pricardMainText{
+    font-size: 32px
+  }
+  .pricingMobileSubText{
+    font-size: 20px;  
+  }
+  .flexCOL{
+    gap: 30px;
+  }
+  .pricingMainText{
+    font-size: 34px;
+  }
+  
+  .enterpriseWebCard{
+    width: 1170px;
+  }
+
+  .perStudentTextWeb{
+    opacity: 0.6;
+    font-size: 18px;
+  }
+
+} */

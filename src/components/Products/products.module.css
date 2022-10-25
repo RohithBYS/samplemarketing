@@ -1,0 +1,220 @@
+.mainCont{
+  width: 100%;
+  max-width: 1700px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 18px 79px 50px 64px;
+  /* position: relative; */
+}
+
+
+.roundBox{
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inPageCont{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.mainSection{
+  /* border: solid 1px red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.DataSection{
+  /* width: 55%; */
+  /* border: solid 1px red; */
+  /* border: solid 1px blue; */
+}
+
+.homeText{
+  font-size: 14px;
+  color: #25282b;
+}
+
+.locationText{
+  font-size: 14px;
+  font-weight: 600;
+  color: #25282b;
+}
+
+.moduleText{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.moduleArrange{
+  margin: 52px 0px 12px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.mainText{
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.38;
+  color: #25282b;
+  /* width: 55%; */
+}
+
+.subText{
+  /* border: solid 1px aqua; */
+  width: 80%;
+  box-sizing: border-box;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+  color: #25282b;
+  margin: 12px 0px 56px 0px;
+}
+
+.getSubscriptionButton{
+  width: 247px;
+  height: 62px;
+  border-radius: 4px;
+  background-color: #3fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+}
+
+.chatOnText{
+  font-size: 20px;
+  font-weight: 500;
+  color: #25282b;
+  width: fit-content;
+}
+
+.buttonWhatsappArrange{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+.WebmainImage{
+  /* border: solid 2px black; */
+}
+
+.downloadAppText{
+  font-size: 14px;
+  color: #8E8F91;
+}
+
+
+.chatOnArrange{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  width: max-content;
+}
+
+.mobileMainImage{
+  display: none;
+}
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 576px){
+
+  .inPageCont{
+    display: none;
+  }
+
+  .mainCont{
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .moduleArrange{
+    margin: 32px 0px 24px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 8px; */
+  }
+
+  .moduleText{
+    font-size: 16px;
+  }
+
+  .mainText{
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .DataSection{
+   width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .getSubscriptionButton{
+    width: 191px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .subText{
+  font-size: 16px;
+  line-height: 1.5;
+  width: 100%;
+  text-align: center;
+  }
+
+  .mainSection{
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .buttonWhatsappArrange{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 32px;
+  }
+
+  .imageSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .WebmainImage{
+    display: none;
+  }
+
+  .mobileMainImage{
+    display: block;
+  }
+  
+}

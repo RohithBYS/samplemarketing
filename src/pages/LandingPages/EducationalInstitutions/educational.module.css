@@ -1,0 +1,115 @@
+.mainCont{
+  background-color: #f7f7f7; 
+  /* padding: 0px 64px 40px 64px; */
+}
+.educationalMainCont{
+  /* width: 100%; */
+  /* border: solid 1px red; */
+  /* height: 464px; */
+  background-color: #f7f7f7;
+  padding: 56px 64px 40px 64px;
+  /* padding: 0px 64px 0px 64px; */
+  max-width: 1152px;
+  margin: auto;
+}
+
+.alignCenter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.eduLogos{
+  /* padding: 0px 64px 0px 64px; */
+ 
+  /* padding-bottom: 40px; */
+  /* border: solid 2px black; */
+  margin-top: 40px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 24px;
+}
+
+.eduLogoBox{
+  width: 172px; 
+  height: 112px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainText{
+  font-size: 40px;
+  font-weight: 600;
+  /* font-family: "San Francisco"; */
+  color: #25282b;
+  line-height: 1.75;
+}
+
+.clickhereText{
+  color: #0076ff;
+  /* margin-right: 40px; */
+  /* margin: auto; */
+  /* margin-top: 12px; */
+  text-align: right;
+  
+}
+
+.imageSizing{
+  /* width: 172px;
+  height: 112px; */
+}
+
+@media (min-width: 320px) and (max-width: 576px){
+ 
+  .educationalMainCont{
+    padding: 24px 16px 24px 16px;
+  }
+
+  .mainText{
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+    width: 10em;
+  }
+
+  .eduLogos{
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 16px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+
+  .eduLogoBox{
+    width: 146px;
+    height: 102px;
+  }
+
+  .clickhereText{
+    margin-right: 20px;
+    
+  }
+}
+
+@media only screen and (min-width: 1367px)  {
+  /* .educationalMainCont{
+    max-width: 45%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  } */
+}

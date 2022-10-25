@@ -1,0 +1,166 @@
+.mainCont{
+  padding: 84px 0px 0px 0px;
+  /* max-width: 1700px;
+  margin: auto; */
+  /* border: solid 1px red; */
+}
+
+.funnyThingMainCont{
+  width: 100%;
+  background-image: linear-gradient(to right, #ea4c70 0%, #b2457c 100%);
+}
+
+.funnyThingInnerCont{
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1700px;
+  padding: 132px 162px 123px 162px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.culturemainHeading{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: left;
+  color: #fff;
+}
+
+.cultureSubText{
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.textBox{
+  /* border: solid 1px red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textBox2{
+  width: 40%;
+  /* border: solid 1px red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.otherMainCont{
+  
+}
+
+.otherInnerCont{
+  width: 100%;
+  /* height: 480px; */
+  max-width: 1700px;
+  box-sizing: border-box;
+  margin: auto;
+  /* border: solid 1px red; */
+  padding: 60px 162px 60px 162px;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 112px; */
+}
+
+.otherMainHeading{
+  font-size: 32px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 1.5;
+  color: #25282b;
+}
+
+.otherSubHeading{
+  opacity: 0.6;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: left;
+  color: #25282b;
+}
+
+.cardMainText{
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  color: #25282b;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 576px){
+
+  .mainCont{
+    padding: 0px 0px 0px 0px;
+  }
+
+  .funnyThingInnerCont{
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .culturemainHeading{
+    font-size: 32px;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .cultureSubText{
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  }
+
+  .cultureImage{
+    width: 292px;
+    height: 208px;
+  }
+
+  .textBox{
+    gap: 16px;
+  }
+
+  .textBox2{
+    gap: 16px;
+    width: 100%;
+  }
+
+  .otherInnerCont{
+    padding: 32px 16px 24px 16px;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .otherMainHeading{
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .otherSubHeading{
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+  }
+
+  .otherImage{
+    width: 232px;
+    height: 200px;
+  }
+
+}

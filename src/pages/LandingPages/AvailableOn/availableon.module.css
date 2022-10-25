@@ -1,0 +1,155 @@
+.mainCont{
+  /* height: 499px; */
+  padding: 72px 0px 56px 0px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 68px;
+}
+
+.weAreonCont{
+  display: flex;
+  flex-direction: column;
+  /* gap: 38px; */
+  width: fit-content;
+  height: fit-content;
+  /* border: solid 1px blue; */
+}
+
+.mainText{
+  width: 230px;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "San Francisco";
+  color: #25282b;
+}
+
+.availableColor{
+  color: #f36;
+}
+
+.iconsPlayArrange{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.playButtonsArrange{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.TextIconArrange{
+  width: fit-content;
+  /* border: solid 1px red; */
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+
+.joinCommunityCont{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 49px 0px 49px 0px;
+  /* height: 160px; */
+  background-image: linear-gradient(to right, #ea4c70 0%, #b2457c 100%);
+}
+
+.communityText{
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.joinNowButton{
+  cursor: pointer;
+  border: none;
+  width: 184px;
+  height: 62px;
+  border-radius: 100px;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  color: #25282b;
+  /* letter-spacing: 2px; */
+}
+
+@media (min-width: 320px) and (max-width: 576px){
+ 
+  .mainCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mainText{
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
+    width: 70%;
+  }
+  .communityText{
+    font-size: 20px;
+  }
+
+  .joinNowButton{
+    width: 148px;
+    height: 48px;
+    font-size: 16px;
+  }
+
+  .joinCommunityCont{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0px 24px 0px;
+  }
+
+  .lapTabImage{
+    width: 303px;
+    height: 162px;
+  }
+
+  .threeTypesIcons{
+    width: 70%;
+    height: 70%;
+  }
+
+  .playStoreIcons{
+    width: 139px;
+    height: 42px;
+   
+  }
+
+  .playButtonsArrange{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .iconsPlayArrange{
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .weAreonCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .TextIconArrange{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+  }
+}

@@ -1,0 +1,42 @@
+.dataMainCont{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mainText{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: left;
+  color: #25282b;
+}
+
+.subText{
+  /* max-width: 70%; */
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: left;
+  color: #25282b;
+}
+
+@media (min-width: 320px) and (max-width: 576px){
+
+  .dataMainCont{
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .mainText{
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .subText{
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+
+}
