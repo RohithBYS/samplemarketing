@@ -210,7 +210,7 @@ function displayLiveClass(){
                   <div key={index}>
                     <div className={s.getranksDataCont}>
                       <ul>
-                        <li className={s.npText}>{item.name}</li>
+                        <li  className={s.npText}>{item.name}</li>
                         {
                           (item.subdata || []).map((item2,index2)=>{
                             return(
@@ -218,7 +218,6 @@ function displayLiveClass(){
                             )
                           })
                         }
-                      
                       </ul>
                     </div>
                   </div>

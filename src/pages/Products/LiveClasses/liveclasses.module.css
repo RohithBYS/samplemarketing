@@ -402,6 +402,10 @@ justify-content: flex-end;
   margin:  0 !important;
 }
 
+.getRanksBullet{
+ border: solid 2px black;
+}
+
 
 
 
@@ -573,13 +577,16 @@ justify-content: flex-end;
 
   .getranksDataCont{
     width: 100%;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 21px 0px 0px;
+    text-align: left;
     /* padding: 0 !important; */
+    /* background-color: red; */
     border-bottom: solid 1px #E1E1E2;
   }
   .zoomDataCont{
     width: 100%;
-    padding: 0px;
+    padding: 0px 21px 0px 0px;
+    text-align: left;
     
   }
 
