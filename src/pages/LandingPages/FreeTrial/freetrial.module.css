@@ -12,9 +12,10 @@
 
 .headText{
   width: 80%;
-  font-size: 40px;
-  font-weight: 600;
-  color: #25282b;
+  font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #25282b;
   text-align: center;
   margin-top: 120px;
   line-height: 1.5;
@@ -76,7 +77,7 @@
   .mainCont{
     /* width: 100%; */
    /* border: solid 2px red; */
-   padding: 2rem;
+   padding: 6rem 2rem 2rem 2rem;
    /* border: solid 1px red; */
   }
   

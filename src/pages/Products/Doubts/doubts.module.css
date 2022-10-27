@@ -25,7 +25,7 @@
 }
 
 .MainTextWidth{
-  width: 570px;
+  width: 52%;
 }
 
 .subTextWidth{
@@ -93,7 +93,7 @@ justify-content: flex-end;
 @media (min-width: 320px) and (max-width: 576px){
 
   .mainCont{
-    padding: 0px 0px 0px 0px;
+    padding: 72px 0px 0px 0px;
   }
 
   .WebImage{

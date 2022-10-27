@@ -156,8 +156,8 @@ function displayLiveClass(){
               return(
                 <div className={s.compDataCont} key={index}>
                   <div className={s.zoomDataCont}>
-                    <ul>
-                      <li className={s.npText}>{item.zoomdata}</li>
+                    <ul className={s.negativeBullets}>
+                      <li className={s.npText+' '+s.bulletColor}>{item.zoomdata}</li>
                       {
                         (item.zoomsubdata || []).map((item2,index2)=>{
                           return(
@@ -170,8 +170,8 @@ function displayLiveClass(){
                     </ul>
                   </div>
                   <div className={s.getranksDataCont}>
-                    <ul>
-                        <li className={s.npText}>{item.getranksdata}</li>
+                    <ul className={s.positiveBullets}>
+                        <li className={s.npText+' '+s.bulletColor}>{item.getranksdata}</li>
                         {
                           (item.getrankssubdata || [] ) .map((item3,index3)=>{
                             return(
@@ -209,8 +209,8 @@ function displayLiveClass(){
                 return(
                   <div key={index}>
                     <div className={s.getranksDataCont}>
-                      <ul>
-                        <li className={s.npText}>{item.name}</li>
+                      <ul  className={s.positiveBullets}>
+                        <li  className={s.npText+' '+s.bulletColor}>{item.name}</li>
                         {
                           (item.subdata || []).map((item2,index2)=>{
                             return(
@@ -218,7 +218,6 @@ function displayLiveClass(){
                             )
                           })
                         }
-                      
                       </ul>
                     </div>
                   </div>
@@ -243,8 +242,8 @@ function displayLiveClass(){
                 return(
                   <div key={index}>
                     <div className={s.zoomDataCont}>
-                      <ul>
-                        <li className={s.npText}>{item.name}</li>
+                      <ul className={s.negativeBullets}>
+                        <li className={s.npText+' '+s.bulletColor}>{item.name}</li>
                         {
                           (item.subdata || []).map((item2,index2)=>{
                             return(

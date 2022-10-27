@@ -38,7 +38,6 @@
 
 
 .cityText{
-  font-family: "San Francisco";
   font-size: 16px;
   font-weight: bold;
   color: #25282b;
@@ -47,7 +46,6 @@
 .addressText{
   padding-top: 8px;
   padding-right: 24px;
-  font-family: "San Francisco";
   font-size: 14px;
   line-height: 1.71;
   color: #25282b;
@@ -61,7 +59,6 @@
   cursor: pointer;
   margin-top: 8px;
   padding-right: 24px;
-  font-family: "San Francisco";
   font-size: 14px;
   color: #25282b;
 }

@@ -47,7 +47,7 @@ export default function AchievementSoFar() {
                 <div className={s.rounBox} style={{backgroundColor: item.iconcolor}}>
                   <img src={item.icon} alt='icon'/>
                 </div>
-                <div>
+                <div className= {s.countTextArrange} >
                   <div className={s.achievmentMainText} style={{color: item.textcolor}}>{item.maintext}</div>
                   <div className={`${s.achievmentMainSubText} mt-3`}>{item.subtext}</div>
                 </div> 

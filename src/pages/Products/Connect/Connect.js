@@ -67,6 +67,7 @@ export default function Connect()  {
                   bottomBaloonColor={item.bBottomColor}
                   topAdjust={s.topballonAdjust}
                   bottomAdjust={s.bottomballonAdjust}
+                  customWidth= {s.customImageStyling}
                 />
               </div>
 
@@ -90,7 +91,7 @@ export default function Connect()  {
         backgColor=' #e0ffe0'
         moduleImage ='/images/Connect/Group 685.svg'
         moduleColor = '#0c0'
-        mainText = 'Simplify communication underscore with students, parents, teachers and make time for what’s important.'
+        mainText = 'Simplify communication with students, parents, teachers and make time for what’s important.'
         subText='A complete unified communications platform that enables new ways teaching, learning, and working across educational environments.'
         WebbackImage= '/images/Connect/ConnectWeb.webp'
         mobileBackImage= '/images/Connect/ConnectWeb.webp'

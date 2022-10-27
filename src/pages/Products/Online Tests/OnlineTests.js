@@ -70,7 +70,7 @@ export default function OnlineTests() {
         ONLINE_DATA.map((item,index)=>{
           return(      
             <div  className={s.pageMainCont} key={index} >
-              <div className={`${index %2 != 0 ?  s.rowReverseCont : s.rowCont }`}>
+              <div className={`${index %2 !== 0 ?  s.rowReverseCont : s.rowCont }`}>
                 <div className={s.textboxRow}>
                   <div className={s.contentBox}>
                     <div className={s.dataSectionLive}>
@@ -81,9 +81,9 @@ export default function OnlineTests() {
                         />
                       </div>
                       <div className={s.liveMainText}>{item.mainText}</div>
-                      </div>
+                    </div>
 
-                      
+                      <div className={`${item.moduleImage === 'no' ? s.bulletDataOffCont :  s.bulletDataCont}`}>
                         <ul className={s.bulletSpacing}>
                           {
                             item.subData.map((item2,index2)=>{
@@ -95,7 +95,7 @@ export default function OnlineTests() {
                             })
                           }
                         </ul>
-                      
+                      </div>
                   </div>
                 </div>
 
@@ -142,11 +142,13 @@ export default function OnlineTests() {
           {/* analysis */}
           <div className={s.analysisTextBox}>
             <div className={s.subHeading+' '+s.mtAnalysis}>Marks Based Analysis</div>
-            <ul className={s.bulletSpacing}>
-              <li className={s.liveSubText}>Marks distribution graph</li>
-              <li className={s.liveSubText}>Cut-off based analysis</li>
-              <li className={s.liveSubText}>Student-wise marks analysis</li>
-            </ul>
+            <div className={s.analysisBulletDataCont}>
+              <ul className={s.bulletSpacing}>
+                <li className={s.liveSubTextAnalysis}>Marks distribution graph</li>
+                <li className={s.liveSubTextAnalysis}>Cut-off based analysis</li>
+                <li className={s.liveSubTextAnalysis}>Student-wise marks analysis</li>
+              </ul>
+            </div>
           </div>
 
           <div className={s.analysisImageDisplay}>
@@ -162,21 +164,25 @@ export default function OnlineTests() {
           {/* Comparision Analysis */}
           <div className={s.analysisTextBox}>
             <div className={s.subHeading+' '+s.mtAnalysis}>Comparision Analysis </div>
-            <ul className={s.bulletSpacing}>
-              <li className={s.liveSubText}>Historic test averages</li>
-              <li className={s.liveSubText}>Student performance profile</li>
-              <li className={s.liveSubText}>Subject top marks vs topper</li>
-            </ul>
+            <div className={s.analysisBulletDataCont}>
+              <ul className={s.bulletSpacing}>
+                <li className={s.liveSubTextAnalysis}>Historic test averages</li>
+                <li className={s.liveSubTextAnalysis}>Student performance profile</li>
+                <li className={s.liveSubTextAnalysis}>Subject top marks vs topper</li>
+              </ul>
+            </div>
           </div>
 
           {/* Error Analysis */}
           <div className={s.analysisTextBox+' '+s.mobReducetopSpace}>
             <div className={s.subHeading+' '+s.mtAnalysis}>Error Analysis </div>
-            <ul className={s.bulletSpacing}>
-              <li className={s.liveSubText}>Question error count</li>
-              <li className={s.liveSubText}>Students error mapping</li>
-              <li className={s.liveSubText}>Question paper referencing</li>
-            </ul>
+            <div className={s.analysisBulletDataCont}>
+              <ul className={s.bulletSpacing}>
+                <li className={s.liveSubTextAnalysis}>Question error count</li>
+                <li className={s.liveSubTextAnalysis}>Students error mapping</li>
+                <li className={s.liveSubTextAnalysis}>Question paper referencing</li>
+              </ul>
+            </div>
           </div>
 
           <div className={s.analysisImageDisplay}>
@@ -193,11 +199,13 @@ export default function OnlineTests() {
           {/* Concept-based Analysis */}
           <div className={s.analysisTextBox}>
             <div className={s.subHeading+' '+s.mtAnalysis}>Concept-based Analysis</div>
-            <ul className={s.bulletSpacing}>
-              <li className={s.liveSubText}>Topic based analysis</li>
-              <li className={s.liveSubText}>Sub-topic based analysis</li>
-              <li className={s.liveSubText}>Difficulty level analysis</li>
-            </ul>
+            <div className={s.analysisBulletDataCont}>
+              <ul className={s.bulletSpacing}>
+                <li className={s.liveSubTextAnalysis}>Topic based analysis</li>
+                <li className={s.liveSubTextAnalysis}>Sub-topic based analysis</li>
+                <li className={s.liveSubTextAnalysis}>Difficulty level analysis</li>
+              </ul>
+            </div>
           </div>
 
           <div className={s.analysisImageDisplay}>
@@ -263,7 +271,7 @@ export default function OnlineTests() {
               </div>
 
 
-              <div className={s.contentBox}>
+              <div className={s.contentBox2}>
                 <div className={s.dataSectionLive}>
                   <div className={s.moduleIcon}>
                     <ModuleImage
@@ -276,12 +284,14 @@ export default function OnlineTests() {
                   </div>
                   
                   <div className={s.TextBox3}>
+                    <div className={s.reportsSubText}>9 Informative Reports</div>
+                    <div className={s.lightReportSubText}>(Downloadable for Notice Board)</div>
                     <ul className={s.bulletSpacing}>
                       {
                         reportSubdata.map((item2,index2)=>{
                           return(
                             <div key={index2}>
-                              <li className={s.liveSubText}>{item2}</li>
+                              <li className={s.liveSubTextReport}>{item2}</li>
                             </div>
                           )
                         })

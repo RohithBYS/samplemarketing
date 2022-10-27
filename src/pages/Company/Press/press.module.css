@@ -223,7 +223,7 @@ cursor: pointer;
 @media (min-width: 320px) and (max-width: 576px){
 
   .mainCont{
-    padding: 0px;
+    padding: 72px 0px 0px 0px
   }
   
   .bannerCont{

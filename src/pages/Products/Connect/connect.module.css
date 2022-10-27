@@ -29,10 +29,10 @@
 
 .UnderlineStyle{
   position: absolute ;
-  width: 385px;
+  width: 540px;
   height: 8px;
  top: 280px;
- left: 230px;
+ left: 180px;
 }
 
 
@@ -152,6 +152,14 @@ justify-content: flex-end;
 /* background-color: palevioletred; */
 }
 
+.customImageStyling{
+  /* height: 341px; */
+  width: 100%;
+  border: none;
+  /* width: fit-content; */
+  height: 100%;
+}
+
 
 
 
@@ -160,7 +168,7 @@ justify-content: flex-end;
 @media (min-width: 320px) and (max-width: 576px){
 
   .mainCont{
-    padding: 0px 0px 0px 0px;
+    padding: 72px 0px 0px 0px;
   }
 
   .WebImage{
@@ -176,12 +184,17 @@ justify-content: flex-end;
     box-sizing: border-box;
   }
 
+  .customImageStyling{
+    width: 320px;
+    height: 180px;
+  }
+
 
   .UnderlineStyle{
-    width: 251px;
+    width: 231px;
     height: 6px;
-    top: 135px;
-    left: 140px;
+    top: 21%;
+    left: 11.5%;
   }
 
   .MobileImageWidth{
