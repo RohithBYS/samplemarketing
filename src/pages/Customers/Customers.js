@@ -1,6 +1,7 @@
 import React from 'react'
 import s from './customers.module.css'
 import { CUSTOMER_DATA1 } from './CustomersData'
+import Footer from '../../components/Footer/Footer'
 
 export default function Customers() {
 
@@ -109,11 +110,14 @@ export default function Customers() {
 
 
   return (
+    <>
     <div className={s.mainCont}>
       { trustedByInstitutions() }
       { displayNetwork() }
       { displaySection1() }
       { displaySection2() }
     </div>
+    <Footer selColor = '#f7f7f7'/>
+    </>
   )
 }

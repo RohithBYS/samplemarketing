@@ -18,7 +18,7 @@
 }
 
 .MainTextWidth{
-  width: 70%;
+  width: 75%;
 }
 
 .subTextWidth{
@@ -198,7 +198,7 @@ max-width: 540px;
 @media (min-width: 320px) and (max-width: 576px){
 
   .mainCont{
-    padding: 0px 0px 0px 0px;
+    padding: 72px 0px 0px 0px;
   }
 
   .WebImage{

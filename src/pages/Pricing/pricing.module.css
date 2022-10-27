@@ -19,7 +19,6 @@
   width: 45%;
   font-size: 40px;
   font-weight: 600;
-  font-family: "San Francisco";
   color: #25282b;
   letter-spacing: 0.5px;
   line-height: 1.5;
@@ -38,7 +37,6 @@
 .pricingSubText{
   margin-top: 12px;
   font-size: 16px;
-  font-family: "San Francisco";
   text-align: center;
   color: #25282b;
 }
@@ -76,7 +74,6 @@
   font-size: 14px;
   letter-spacing: -0.28px;
   color: #25282b;
-  font-family: "San Francisco";
 }
 
 .iconsArrange{
@@ -112,5 +109,4 @@
   margin-top: 64px;
   font-size: 24px;
   color: #f36;
-  font-family: "San Francisco";
 }

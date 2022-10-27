@@ -44,7 +44,7 @@
   width: 228px;
   height: 8px;
  top: 280px;
- left: 358px;
+ left: 29%;
 }
 
 .imageCont{
@@ -403,10 +403,25 @@ justify-content: flex-end;
 }
 
 .getRanksBullet{
- border: solid 2px black;
+ /* border: solid 2px black; */
+}
+
+/* 
+.positiveBullets ul li::before{
+  color: green;
+} */
+
+/* ul li::before{
+  color: green;
+} */
+.positiveBullets .bulletColor::before{
+  color: #0c0;
 }
 
 
+.negativeBullets .bulletColor::before{
+  color:  #ff8080;
+}
 
 
 
@@ -414,7 +429,7 @@ justify-content: flex-end;
 @media (min-width: 320px) and (max-width: 576px){
 
   .openBannerCont{
-    padding: 0px 0px 0px 0px;
+    padding: 72px 0px 0px 0px;
   }
   .WebImage{
     display: none;
@@ -429,10 +444,10 @@ justify-content: flex-end;
   }
 
   .UnderlineStyle{
-    width: 145px;
+    width: 140px;
     height: 6px;
-    top: 135px;
-    left: 223px;
+    top: 23.5%;
+    left: 15%;
   }
 
   .dataMainCont{
@@ -514,7 +529,7 @@ justify-content: flex-end;
   }
 
   .contentBox{
-    border: solid 1px pink;
+    /* border: solid 1px pink; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -587,6 +602,7 @@ justify-content: flex-end;
     width: 100%;
     padding: 0px 21px 0px 0px;
     text-align: left;
+    border-bottom: solid 1px #E1E1E2;
     
   }
 
@@ -621,6 +637,22 @@ justify-content: flex-end;
 
   .marginT24{
     margin-top: 24px;
+  }
+
+  .positiveBullets{
+    /* border: solid 1px red; */
+    margin:  0 !important;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    /* padding: 10px 0px 10px 0px; */
+  }
+
+  .negativeBullets{
+    /* border: solid 1px red; */
+    margin:  0 !important;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    /* padding: 10px 0px 10px 0px; */
   }
 
 

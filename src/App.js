@@ -16,6 +16,7 @@ import LiveClasses from "./pages/Products/LiveClasses/LiveClasses";
 import Doubts from "./pages/Products/Doubts/Doubts";
 import Assignments from "./pages/Products/Assignments/Assignments";
 import Connect from "./pages/Products/Connect/Connect";
+import ScheduleDemo from "./pages/ScheduleDemo/ScheduleDemo";
 // import { useState } from 'react'
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
             <Route path='/doubts' element={<Doubts/>} />
             <Route path='/assignments' element={<Assignments/>} />
             <Route path='/connect' element={<Connect/>} />
+            <Route path='/demo' element={<ScheduleDemo/>} />
         </Routes> 
         {/* <Footer/> */}
       

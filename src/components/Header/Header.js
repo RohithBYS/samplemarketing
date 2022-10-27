@@ -7,7 +7,7 @@ import { Outlet, Link } from "react-router-dom";
 export default function Header() {
 
   const [showDropdown, setShowDropdown] = useState(false)
-  const [selectedDropdown, setSelectedDropdown] = useState('Products')
+  const [selectedDropdown, setSelectedDropdown] = useState('')
   const [showMobileNav, setShowMobileNav] = useState(false)
   const ref = useRef(null)
 
@@ -100,9 +100,21 @@ const navigationData = [
 
 ]
 
-  function OnClickHandler(dropdownName, enable){
-    setSelectedDropdown(dropdownName)
-    setShowDropdown(enable)
+  function OnClickHandler(dropdownName){
+    
+    if(dropdownName === selectedDropdown){
+      setSelectedDropdown('null')
+    }
+    else{
+      setSelectedDropdown(dropdownName)
+      setShowDropdown(!showDropdown)
+    }
+
+   
+    
+    
+    // console.log("After : "+showDropdown)
+
     if(dropdownName === 'Pricing'){
       window.location.href='/pricingmobile';
     }
@@ -123,13 +135,13 @@ const navigationData = [
        (data || [] ).map((item2,index)=>{
          return(
            <div key={index}>
-             <div className={s.dropdownBox+' '+s.sideArrange} style={{gap: '10px'}}
-              
-             >
-               {item2.icon != false ? <img src={item2.icon} alt='type-icon'/> : null}
+
+             <Link  to={item2.url} className={s.dropdownBox+' '+s.sideArrange} onClick={()=> (setShowDropdown(!showDropdown), setSelectedDropdown('null'))} >
+               {item2.icon != false ? <img src={item2.icon} className={s.dropdownIcon} alt='type-icon'/> : null}
                {/* <div >{item2.name}</div> */}
-               <Link to={item2.url} className={s.dropdownText}>{item2.name}</Link>
-             </div>   
+               <div  className={s.dropdownText}>{item2.name}</div>
+             </Link> 
+
            </div>
          )
        })
@@ -168,14 +180,27 @@ const navigationData = [
                     >
                       {item.name}</div> */}
                     {
-                      item.subdata ? <div className={s.navigationText} onClick={()=> OnClickHandler(item.name,true)}>
-                        {item.name}</div> :  <Link to={item.url} className={s.navigationText}>{item.name}</Link>
+                      item.subdata ?
+                        <div className={s.dropdownIconArrange} 
+                          onClick={()=> 
+                          OnClickHandler(item.name)
+                          }>
+                          <div className={s.navigationText} >
+                            {item.name}
+                          </div>
+                          {
+                            selectedDropdown === item.name && showDropdown ?  <img className={s.arrowUp} src='/images/arrow_down.svg' alt='down-arrow' />   : <img className={s.arrowDown} src='/images/arrow_down.svg' alt='down-arrow' /> 
+                          }
+                         
+                        </div>
+                         :
+                        <div onClick={()=> setShowMobileNav(false)}><Link to={item.url} className={s.navigationText}>{item.name}</Link></div>
                     
                     }
                    
-                    {
+                    {/* {
                       item.subdata && <img className={s.arrowDown} src='/images/arrow_down.svg' alt='down-arrow' />
-                    }
+                    } */}
 
                     { 
                       showDropdown && selectedDropdown === item.name && dropDownPopUp(item.subdata)
@@ -187,7 +212,7 @@ const navigationData = [
           })
         }
         <div className={s.sideArrange} style={{gap: '24px'}}>
-            <button className={s.scheduleDemoButton}>Schedule demo</button>
+            <Link to='/demo'><button className={s.scheduleDemoButton}>Schedule demo</button></Link>
             <button className={s.loginButton}>LOGIN</button>
           </div>
       </div>
@@ -209,22 +234,22 @@ const navigationData = [
             onClick={()=>  window.location.href='/'} 
           />
           <div className='flexSideArrange'>
-            <div className={s.demoButtonMobile}>DEMO</div>
+            <Link to='/demo' className={s.demoButtonMobile}>DEMO</Link>
             <div className={s.loginButtonMobile}>LOGIN</div>
             <img src={`${showMobileNav ? '/images/close.svg' :  '/images/Icons=Menu.svg'}`} alt='icon'
                 onClick={()=> setShowMobileNav(!showMobileNav)}
             />
           </div> 
         </div>
-
-        <div className={`${ showMobileNav ? s.insideCont+' '+s.insideContshow : s.hideInsideCont}`}>
+        <div id="slider" class="slide-in">
+        <div id="slider" className={`${ showMobileNav ? s.insideCont+' '+s.insideContshow : s.hideInsideCont}`}>
           { 
             navigationData.map((item1,index1)=>{
               return(
                 <div key={index1}>
 
                   <div className={s.mobileNavHeading}
-                    onClick={()=> OnClickHandler(item1.name,true)}
+                    onClick={()=> OnClickHandler(item1.name)}
                     >
                     <div>{item1.name}</div>
                   
@@ -244,10 +269,10 @@ const navigationData = [
                       (item1.subdata || [] ).map((item,index)=>{
                         return(
                           <div key={index}>
-                            <div className={s.subData}>
+                            <div className={s.subData} onClick={()=> setShowMobileNav(false)}>
                               {item.icon && <img src={item.icon} alt='icon'/>}
                                 {/* <div>{item.name}</div> */}
-                                <Link to={item.url} className={s.subDataText} >{item.name}</Link>
+                                <Link  to={item.url} className={s.subDataText} >{item.name}</Link>
                             </div>
                           </div>
                         )
@@ -259,6 +284,7 @@ const navigationData = [
               )
             }) 
           }
+          </div>
               
 
           {/* <div className={s.mobileNavHeading}

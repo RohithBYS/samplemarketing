@@ -37,10 +37,9 @@
 
 .navigationText{
   text-decoration: none;
-  font-family: "San Francisco";
   font-size: 14px;
-  font-weight: 600;
-  color: #868686;
+  color: #000;
+  opacity: 0.6;
   cursor: pointer;
 }
 
@@ -61,6 +60,18 @@ text-decoration: underline;
 rotate: 90;
   cursor: pointer;
 }
+
+.arrowUp{
+  /* background-color: red; */
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+    cursor: pointer;
+  }
+
+
 
 .scheduleDemoButton{
   text-transform: uppercase;
@@ -127,6 +138,7 @@ rotate: 90;
 
 .dropdownBox{
   /* background-color: red; */
+  text-decoration: none;
  cursor: pointer;
   padding: 10px 24px 10px 10px;
 }
@@ -137,24 +149,38 @@ rotate: 90;
 
 .dropdownText{
   font-size: 14px;
-  font-weight: 600;
-  color: #868686;
+  /* font-weight: 600; */
+  color: #000;
+  opacity: 0.6;
   cursor: pointer;
   text-decoration: none;
 }
 
+.dropdownIcon{
+  padding-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.dropdownIconArrange{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 2px;
+  /* background-color: red; */
+}
 
 .mobileNavMainContainer{
   display: none;
   width: 100%;
-  height: 100%;
+  height: max-content;
   box-sizing: border-box;
-  /* background-color: red; */
+  background-color: #fff;
   box-shadow: 0 4px 25px 0 rgb(0 0 0 / 8%);
   padding: 1rem;
-  /* position: fixed; */
-  position: relative;
-  z-index: 1000;
+  position: fixed;
+  /* position: relative; */
+  z-index: 100;
 }
 
 .logoImgMobile{
@@ -173,6 +199,7 @@ rotate: 90;
   text-transform: uppercase;
   margin-right: 12px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .loginButtonMobile{
@@ -225,6 +252,7 @@ rotate: 90;
   opacity: 0.6;
   font-size: 14px;
   padding-top: 20px;
+  /* background-color: red; */
 }
 
 .mobileNavsubData{
@@ -258,6 +286,47 @@ rotate: 90;
   opacity: 0.6;
   text-decoration: none;
 }
+
+
+/*  */
+#slider {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: blue;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+}
+
+.slide-in {
+  animation: slide-in 0.5s forwards;
+  -webkit-animation: slide-in 0.5s forwards;
+}
+
+.slide-out {
+  animation: slide-out 0.5s forwards;
+  -webkit-animation: slide-out 0.5s forwards;
+}
+  
+@keyframes slide-in {
+  100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-in {
+  100% { -webkit-transform: translateX(0%); }
+}
+  
+@keyframes slide-out {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+@-webkit-keyframes slide-out {
+  0% { -webkit-transform: translateX(0%); }
+  100% { -webkit-transform: translateX(-100%); }
+}
+
+
 
 
 

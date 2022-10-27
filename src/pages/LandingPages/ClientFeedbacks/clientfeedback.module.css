@@ -63,14 +63,13 @@
   font-size: 20px;
   font-weight: 600;
   color: #fff;
-  font-family: "San Francisco";
+ 
 }
 
 .studentText{
   margin-top: 15px;
   font-size: 16px;
   color: #fff;
-  font-family: "San Francisco";
 }
 
 .carouselCommentText{
@@ -81,7 +80,6 @@
   font-size: 16px;
   line-height: 1.5;
   color: #fff;
-  font-family: "San Francisco";
 }
 
 .carouselMainCont{
