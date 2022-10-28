@@ -30,7 +30,7 @@ const navigationData = [
     name: 'Products',
     subdata: [
       {
-        name: 'Online Testst',
+        name: 'Online Tests',
         icon: '/images/Tests.svg',
         url: '/onlinetests'
       },
